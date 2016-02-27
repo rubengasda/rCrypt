@@ -1,4 +1,4 @@
-﻿namespace rCryptForm
+﻿namespace rCryptForms
 {
     partial class mainForm
     {
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // mainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "mainForm";
             this.Text = "mainForm";
+            this.Load += new System.EventHandler(this.mainForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

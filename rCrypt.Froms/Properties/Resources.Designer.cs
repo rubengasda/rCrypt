@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace rCryptForm.Properties {
+namespace rCryptForms.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace rCryptForm.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("rCryptForm.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("rCryptForms.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -71,9 +71,9 @@ namespace rCryptForm.Properties {
         ///  .JMML.     `&quot;bmmmd&apos;  .JMML.       ,V       MMbmmd&apos;    `Mbmo 
         ///                                   ,V        MM                [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
         /// </summary>
-        internal static string rCryptForm {
+        internal static string rCryptForms {
             get {
-                return ResourceManager.GetString("rCryptForm", resourceCulture);
+                return ResourceManager.GetString("rCryptForms", resourceCulture);
             }
         }
     }

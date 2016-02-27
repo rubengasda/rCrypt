@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace rCryptForm
+namespace rCryptForms
 {
     class Program
     {
@@ -20,7 +20,7 @@ namespace rCryptForm
             }
             else
             {
-                rConsole.s.initialize(args);
+                rConsole.Initialize(args);
             }
         }
     }
