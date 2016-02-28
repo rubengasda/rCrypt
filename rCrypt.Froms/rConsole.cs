@@ -5,6 +5,9 @@ using System.Runtime.InteropServices;
 
 namespace rCryptForms
 {
+    /// <summary>
+    /// Provides access to some Win32 methods
+    /// </summary>
     internal static class NativeMethodes
     {
         [DllImport("kernel32.dll")]
@@ -14,13 +17,24 @@ namespace rCryptForms
         public static extern bool ShowWindow(IntPtr hWnd, int iCmdShow);
     }
 
+    /// <summary>
+    /// The main entry point for the console.
+    /// </summary>
     class rConsole
     {
-        public static void Visible(Boolean visible)
+        /// <summary>
+        /// sets the console visibility.
+        /// </summary>
+        /// <param name="visible"><c>true</c> to view the console; <c>false</c> to hide the console.</param>
+        public static void Visible(bool visible)
         {
             NativeMethodes.ShowWindow(NativeMethodes.GetConsoleWindow(), (visible) ? 5 : 0);
         }
 
+        /// <summary>
+        /// Initialize of the console.
+        /// </summary>
+        /// <param name="args">parameters to be considered in the Initialize.</param>
         public static void Initialize(string[] args)
         {
             Assembly _Assembly = Assembly.GetExecutingAssembly();
@@ -33,10 +47,13 @@ namespace rCryptForms
                 Console.WriteLine(s);
             }
 
-            s.read();
+            control.read();
         }
 
-        internal static class s
+        /// <summary>
+        /// control through console commands.
+        /// </summary>
+        internal static class control
         {
             public static void read()
             {

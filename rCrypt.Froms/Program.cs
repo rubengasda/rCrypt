@@ -8,6 +8,7 @@ namespace rCryptForms
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// <param name="args">start specified parameters.</param>
         [STAThread]
         static void Main(string[] args)
         {
