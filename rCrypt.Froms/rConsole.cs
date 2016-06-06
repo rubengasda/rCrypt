@@ -38,7 +38,7 @@ namespace rCryptForms
         public static void Initialize(string[] args)
         {
             Assembly _Assembly = Assembly.GetExecutingAssembly();
-            Stream str = _Assembly.GetManifestResourceStream("rCryptForms.Resources.rCryptForms_logo.txt");
+            Stream str = _Assembly.GetManifestResourceStream("rCrypt.Forms.Resources.rCrypt_logo.txt");
             StreamReader rd = new StreamReader(str);
             Console.Write(rd.ReadToEnd());
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{BB5C8593-181A-4C40-B1CC-15ED9362C8CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>rCrypt</RootNamespace>
-    <AssemblyName>rCrypt</AssemblyName>
+    <RootNamespace>rCrypt.Class</RootNamespace>
+    <AssemblyName>rCrypt.Class</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

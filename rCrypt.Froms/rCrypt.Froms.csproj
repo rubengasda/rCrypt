@@ -7,8 +7,8 @@
     <ProjectGuid>{AB53351E-599B-41E6-893E-78A745039092}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>rCryptForms</RootNamespace>
-    <AssemblyName>rCryptForms</AssemblyName>
+    <RootNamespace>rCrypt.Forms</RootNamespace>
+    <AssemblyName>rCrypt.Forms</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
