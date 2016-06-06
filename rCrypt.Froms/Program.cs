@@ -12,18 +12,17 @@ namespace rCryptForms
         [STAThread]
         static void Main(string[] args)
         {
-            rConsole.Initialize(args);
-            //if (args.Length == 0)
-            //{
-            //    rConsole.Visible(false);
-            //    Application.EnableVisualStyles();
-            //    Application.SetCompatibleTextRenderingDefault(false);
-            //    Application.Run(new mainForm());
-            //}
-            //else
-            //{
-            //    rConsole.Initialize(args);
-            //}
+            if (args.Length == 0)
+            {
+                rConsole.Visible(false);
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new mainForm());
+            }
+            else
+            {
+                rConsole.Initialize(args);
+            }
         }
     }
 }
