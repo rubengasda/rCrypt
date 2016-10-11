@@ -29,14 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
+            this.dashPanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // dashPanel
+            // 
+            this.dashPanel.Location = new System.Drawing.Point(567, 75);
+            this.dashPanel.Name = "dashPanel";
+            this.dashPanel.Size = new System.Drawing.Size(1077, 732);
+            this.dashPanel.TabIndex = 0;
             // 
             // mainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(1659, 824);
+            this.Controls.Add(this.dashPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "mainForm";
             this.Text = "mainForm";
             this.Load += new System.EventHandler(this.mainForm_Load);
@@ -45,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel dashPanel;
     }
 }
